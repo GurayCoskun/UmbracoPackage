@@ -15,3 +15,5 @@
 /src/MyPropertyEditor.WEB/obj/Debug
 /src/MyPropertyEditor.WEB/Umbraco
 /src/packages
+/src/MyPropertyEditor/bin/Debug
+/src/MyPropertyEditor.WEB/App_Plugins/MyPropertyEditor

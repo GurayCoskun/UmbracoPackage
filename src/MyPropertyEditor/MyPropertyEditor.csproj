@@ -43,5 +43,13 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Plugins\MyPropertyEditor\package.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Plugins\MyPropertyEditor\css\MyPropertyEditor.style.css" />
+    <Content Include="App_Plugins\MyPropertyEditor\js\MyPropertyEditor.controller.js" />
+    <Content Include="App_Plugins\MyPropertyEditor\MyPropertyEditor.html" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

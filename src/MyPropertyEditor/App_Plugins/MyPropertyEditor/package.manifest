@@ -1,0 +1,19 @@
+﻿{
+	propertyEditors:[
+		{
+			alias:"MyPropertyEditor",
+			name:"My Property Editor",
+			icon : "icon-smiley-inverted",
+			group : "media",
+			editor: {
+				view : "~/App_Plugins/MyPropertyEditor/MyPropertyEditor.html"
+			}
+		}
+	],
+	javascript:[
+		'~/App_Plugins/MyPropertyEditor/js/MyPropertyEditor.controller.js'
+	],
+	css:[
+		'~/App_Plugins/MyPropertyEditor/css/MyPropertyEditor.style.css'
+	]
+}
