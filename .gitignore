@@ -3,3 +3,15 @@
 ################################################################################
 
 /src/.vs/src
+/src/MyPropertyEditor/obj/Debug
+/src/MyPropertyEditor.WEB/App_Data/TEMP/DistCache
+/src/MyPropertyEditor.WEB/App_Data/TEMP/TypesCache
+/src/MyPropertyEditor.WEB/App_Data/TEMP/NuCache
+/src/MyPropertyEditor.WEB/App_Data/Logs
+/src/MyPropertyEditor.WEB/App_Data/Models
+/src/MyPropertyEditor.WEB/App_Data/packages
+/src/MyPropertyEditor.WEB/App_Data/TEMP
+/src/MyPropertyEditor.WEB/bin
+/src/MyPropertyEditor.WEB/obj/Debug
+/src/MyPropertyEditor.WEB/Umbraco
+/src/packages
