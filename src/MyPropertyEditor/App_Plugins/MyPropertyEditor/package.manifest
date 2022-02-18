@@ -1,19 +1,50 @@
 ﻿{
-	propertyEditors:[
+	// you can define multiple editors
+	propertyEditors: [
 		{
-			alias:"MyPropertyEditor",
-			name:"My Property Editor",
-			icon : "icon-smiley-inverted",
-			group : "media",
+			/*this must be a unique alias*/
+			alias: "SeoAppart",
+			/*the name*/
+			name: "Seo Appart Package",
+			/*the icon*/
+			icon: "icon-smiley-inverted",
+			/*grouping for "Select editor" dialog*/
+			group: "media",
+			/*the HTML file we will load for the editor*/
 			editor: {
-				view : "~/App_Plugins/MyPropertyEditor/MyPropertyEditor.html"
+				view: "~/App_Plugins/MyPropertyEditor/MyPropertyEditor.html"
+			},
+			"prevalues": {
+				"fields": 
+					[
+					  {
+            "label": "Recommended number of characters for Title warning",
+            "description": "Will show warning when the title contains more chars than defined. (Default is 60).",
+            "key": "maxCharsTitle",
+            "view": "number"
+          },
+          {
+            "label": "Recommended number of characters for Description warning",
+            "description": "Will show warning when the description contains more chars than defined. (Default is 160).",
+            "key": "maxCharsDescription",
+            "view": "number"
+          },
+          {
+            "label": "Default Title Suffix",
+            "description": "Will append a suffix to the Title preview (not included in the saved data)",
+            "key": "titleSuffix",
+            "view": "textstring"
+          }
+				]
 			}
 		}
+	]
+	,
+	// array of files we want to inject into the application on app_start
+	javascript: [
+		"~/App_Plugins/MyPropertyEditor/js/MyPropertyEditor.controller.js"
 	],
-	javascript:[
-		'~/App_Plugins/MyPropertyEditor/js/MyPropertyEditor.controller.js'
-	],
-	css:[
-		'~/App_Plugins/MyPropertyEditor/css/MyPropertyEditor.style.css'
+	css: [
+		"~/App_Plugins/MyPropertyEditor/css/MyPropertyEditor.style.css"
 	]
 }

@@ -51,5 +51,8 @@
     <Content Include="App_Plugins\MyPropertyEditor\js\MyPropertyEditor.controller.js" />
     <Content Include="App_Plugins\MyPropertyEditor\MyPropertyEditor.html" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Plugins\MyPropertyEditor\img\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

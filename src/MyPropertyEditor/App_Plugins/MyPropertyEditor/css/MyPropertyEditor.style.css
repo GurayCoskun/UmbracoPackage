@@ -1,4 +1,5 @@
-﻿body
-{
-
+﻿div.seo-form input, textarea {
+    border: 0;
+    border-bottom: 1px solid #2f3c48;
+    margin-top: 3%
 }
